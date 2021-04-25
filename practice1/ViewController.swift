@@ -33,7 +33,6 @@ class ViewController: UIViewController {
         let num4:Int = Int(String(text4.text ?? "")) ?? 0
         let num5:Int = Int(String(text5.text ?? "")) ?? 0
         
-        
         label.text = String(num1 + num2 + num3 + num4 + num5)
     }
     
